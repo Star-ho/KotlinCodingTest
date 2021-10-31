@@ -1,13 +1,9 @@
-fun twoSum(nums: IntArray, target: Int): IntArray {
-    var res= ArrayList<Int>();
-    nums.forEachIndexed { index, num ->
-        if(nums.contains(target-num)){
-            if(nums.indexOf(target-num)!=index) {
-                res.add(index)
-                res.add(nums.indexOf(target - num))
-                return res.toIntArray()
-            }
-        }
-    }
-    return res.toIntArray()
+class ListNode(var `val`: Int) {
+    var next: ListNode? = null
+}
+
+fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
+
+
+    return null;
 }
